@@ -1,0 +1,13 @@
+{
+  "name": "flowblock-api",
+  "version": "1.0.0",
+  "description": "FlowBlock subscription API",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@vercel/postgres": "^0.5.1",
+    "crypto": "^1.0.1"
+  }
+}
